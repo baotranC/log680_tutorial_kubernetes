@@ -5,7 +5,7 @@ metadata:
 spec:
   containers:
     - name: hvac-controller
-      image: baotranc/log680-tp2-gr1-eq4:latest 
+      image: baotranc/log680-tp2-gr1-eq4:latest
       envFrom:
         - configMapRef:
             name: hvac-config
